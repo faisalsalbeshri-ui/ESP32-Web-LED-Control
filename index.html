@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 LED Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>ESP32 LED Control</h1>
+    <p>Control the ESP32 built-in LED through the web.</p>
+    <div class="buttons">
+      <button class="on" onclick="setLed(1)">Turn ON</button>
+      <button class="off" onclick="setLed(0)">Turn OFF</button>
+    </div>
+    <p id="status" class="status">Checking LED status...</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
